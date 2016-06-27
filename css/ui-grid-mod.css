@@ -1,0 +1,26 @@
+
+/* Colors to fit into dark pages*/
+.body-dark .grid {
+	color:#ddd;
+	height:500px;
+}
+.body-dark .ui-grid-top-panel, .ui-grid-row:nth-child(even) .ui-grid-cell {
+	background:#000000;
+}
+.ui-grid-row:nth-child(odd) .ui-grid-cell {
+	background: #1f1f1f;
+}
+/* Spacing elements out a bit to make it a little more pleaseing */
+.ui-grid-cell {
+	height: 50px !important;
+}
+.ui-grid-cell-contents {
+	padding:13px;
+}
+.ui-grid-filter-container {
+	padding:10px;
+}
+
+.ui-grid-pager-control .ui-grid-pager-max-pages-number {
+	vertical-align: middle;
+}

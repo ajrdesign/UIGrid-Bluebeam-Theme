@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+    <script src="app.js"></script>
+    <link rel="styleSheet" href="css/bluebeam-core.css"/>
+    <link rel="styleSheet" href="css/ui-grid.min.css"/>
+    <link rel="styleSheet" href="css/ui-grid-mod.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <script src="js/ui-grid.min.js"></script>
+  </head>
+  <body class="body-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Thanks Andrew!</h1>
+          <div ng-controller="MainCtrl">
+            <div ui-grid="gridOptions" ui-grid-pagination class="grid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
