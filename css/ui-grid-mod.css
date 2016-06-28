@@ -4,11 +4,14 @@
 	color:#ddd;
 	height:500px;
 }
-.body-dark .ui-grid-top-panel, .ui-grid-row:nth-child(even) .ui-grid-cell {
-	background:#000000;
+.body-dark .ui-grid-top-panel, .ui-grid-cell {
+	background:#3a3a3a;
 }
-.ui-grid-row:nth-child(odd) .ui-grid-cell {
-	background: #1f1f1f;
+.body-dark .ui-grid-row:nth-child(odd) .ui-grid-cell {
+	background: #141414;
+}
+.body-dark .ui-grid-row:nth-child(even) .ui-grid-cell {
+	background:#1f1f1f;
 }
 /* Spacing elements out a bit to make it a little more pleaseing */
 .ui-grid-cell {
@@ -20,7 +23,27 @@
 .ui-grid-filter-container {
 	padding:10px;
 }
-
 .ui-grid-pager-control .ui-grid-pager-max-pages-number {
 	vertical-align: middle;
+}
+.ui-grid-header {
+    border-top: 3px solid;
+    border-color: #3a3a3a;
+}
+.ui-grid{
+    border-right: 3px solid;
+    border-left: 3px solid;
+    border-color: #3a3a3a;
+}
+.ui-grid-cell{
+    border: none;
+}
+.ui-grid-header-cell{
+    border: none;
+}
+.ui-grid-pager-panel{
+    background:#3a3a3a;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #3a3a3a;
 }

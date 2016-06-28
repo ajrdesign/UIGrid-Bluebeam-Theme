@@ -16,14 +16,34 @@
   </head>
   <body class="body-dark">
     <div class="container">
-      <div class="row">
+	<div class="row">
         <div class="col-md-12">
-          <h1>Thanks Andrew!</h1>
-          <div ng-controller="MainCtrl">
-            <div ui-grid="gridOptions" ui-grid-pagination class="grid"></div>
-          </div>
+            <hr class="double">
+			<div class="row">
+				<div class="col-md-7">
+					<h2 class="subheading">Gateway&nbsp;Users</h2>
+				</div>
+			</div>
+			<hr class="hr-fat flush-margin-t">
         </div>
-      </div>
+    </div>
+	<div class="row">
+        <div class="col-md-12">
+            <ul class="small">
+                <li><span class="text-success">Active</span> : Account is verified and password has been created.</li>
+                <li><span class="text-success">Invited</span> : User needs to verify account and create a password.</li>
+                <li><span class="text-success">Registered</span> : User has registered an account and created a password but needs to verify account.</li>
+            </ul>
+        </div>
+    </div>
+	<br>
+	<div class="row">
+		<div class="col-md-12">
+			<div ng-controller="MainCtrl">
+				<div ui-grid="gridOptions" ui-grid-pagination class="grid"></div>
+			</div>
+		</div>
+	</div>
     </div>
   </body>
 </html>
