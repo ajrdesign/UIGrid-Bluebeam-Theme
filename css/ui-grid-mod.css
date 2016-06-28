@@ -4,6 +4,7 @@
 	color:#ddd;
 	height:500px;
 }
+
 .body-dark .ui-grid-top-panel, .ui-grid-cell {
 	background:#3a3a3a;
 }
@@ -26,24 +27,20 @@
 .ui-grid-pager-control .ui-grid-pager-max-pages-number {
 	vertical-align: middle;
 }
-.ui-grid-header {
-    border-top: 3px solid;
-    border-color: #3a3a3a;
-}
-.ui-grid{
-    border-right: 3px solid;
-    border-left: 3px solid;
-    border-color: #3a3a3a;
-}
-.ui-grid-cell{
+.body-dark .ui-grid-header {
     border: none;
 }
-.ui-grid-header-cell{
+.body-dark .ui-grid{
+    border: 3px solid;
+    border-color: #3a3a3a;
+}
+.body-dark .ui-grid-cell{
     border: none;
 }
-.ui-grid-pager-panel{
+.body-dark .ui-grid-header-cell{
+    border: none;
+}
+.body-dark .ui-grid-pager-panel{
     background:#3a3a3a;
-    border-top: 3px solid;
-    border-bottom: 3px solid;
-    border-color: #3a3a3a;
+    color: #eee;
 }
