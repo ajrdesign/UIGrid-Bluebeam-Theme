@@ -1,5 +1,15 @@
 
 /* Colors to fit into dark pages*/
+.body-dark textarea, .body-dark input[type="text"], .body-dark input[type="password"], .body-dark input[type="datetime"], .body-dark input[type="datetime-local"], .body-dark input[type="date"], .body-dark input[type="month"], .body-dark input[type="time"], .body-dark input[type="week"], .body-dark input[type="number"], .body-dark input[type="email"], .body-dark input[type="url"], .body-dark input[type="search"], .body-dark input[type="tel"], .body-dark input[type="color"], .body-dark .uneditable-input {
+    background-color: #000;
+    color: #e6e6e6;
+    border: 1px solid #959ea4;
+}
+.body-dark select {
+    background-color: #000;
+    border: 1px solid #6d787f;
+    color: #E2E7EB;
+}
 .body-dark .grid {
 	color:#ddd;
 	height:500px;
@@ -13,19 +23,6 @@
 }
 .body-dark .ui-grid-row:nth-child(even) .ui-grid-cell {
 	background:#1f1f1f;
-}
-/* Spacing elements out a bit to make it a little more pleaseing */
-.ui-grid-cell {
-	height: 50px !important;
-}
-.ui-grid-cell-contents {
-	padding:13px;
-}
-.ui-grid-filter-container {
-	padding:10px;
-}
-.ui-grid-pager-control .ui-grid-pager-max-pages-number {
-	vertical-align: middle;
 }
 .body-dark .ui-grid-header {
     border: none;
@@ -43,4 +40,34 @@
 .body-dark .ui-grid-pager-panel{
     background:#3a3a3a;
     color: #eee;
+}
+/* Spacing elements out a bit to make it a little more pleasing */
+.ui-grid-cell {
+	height: 50px !important;
+}
+.ui-grid-cell-contents {
+	padding:13px;
+}
+.ui-grid-filter-container {
+	padding:10px;
+}
+.ui-grid-pager-control .ui-grid-pager-max-pages-number {
+	vertical-align: middle;
+}
+.ui-grid-pager-panel {
+	padding-top: 10px;
+}
+
+/*Pagination styling*/
+
+.ui-grid-pager-control button {
+	border-radius: 0;
+}
+.body-dark .ui-grid-pager-control button {
+	background: black;
+	border-color: #aaa;
+}
+.body-dark .ui-grid-pager-control button[disabled] {
+	background: #222;
+	border-color: #222;
 }
